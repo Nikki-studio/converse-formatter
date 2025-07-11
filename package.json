@@ -1,0 +1,25 @@
+{
+  "name": "converse-formatter",
+  "displayName": "converse formatter",
+  "description": "A syntax highlighter for converse-lang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "converse",
+      "aliases": ["Converse", "converse"],
+      "extensions": [".converse",".cvs",".cv",".cvx",".hv",".hvs",".hvx"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "converse",
+      "scopeName": "source.converse",
+      "path": "./syntaxes/converse.tmLanguage.json"
+    }]
+  }
+}
