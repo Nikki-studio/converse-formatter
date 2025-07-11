@@ -108,6 +108,6 @@
       "match": "[#^]+"
     }
   ],
-  "repository": {},
+  "repository": "https://github.com/Nikki-studio/converse-formatter.git",
   "uuid": "converse-98fa0e2e-7ec3-11ee-b962-0242ac120002"
 }
